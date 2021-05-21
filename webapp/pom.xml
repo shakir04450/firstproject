@@ -22,6 +22,10 @@
       <plugin>
         <groupId>org.mortbay.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
+        <configuration>
+            <fork>true</fork>
+            <executable>/usr/lib/jvm/java-11-openjdk-11.0.11.0.9-0.el8_3.x86_64/bin/javac</executable>
+    </configuration
       </plugin>
     </plugins>
   </build>
